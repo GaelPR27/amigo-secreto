@@ -1,4 +1,3 @@
-[10:56, 13/3/2025] ADOLFO ROCHA: // Arreglo donde se almacenarán los nombres ingresados
 let nombres = [];
 
 // Esperar que el DOM cargue completamente antes de asignar eventos
@@ -12,11 +11,12 @@ function agregarNombre() {
     let input = document.getElementById("nombre");
     let mensajeError = document.getElementById("mensaje-error");
     let nombreIngresado = input.value.trim();
-
+   }
     // Validar que el usuario no ingrese un nombre vacío
     if (nombreIngresado === "") {
-        alert("⚠️ Debes…
-[11:13, 13/3/2025] ADOLFO ROCHA: let nombres = [];
+        alert("⚠️ Debes ingresar un nombre válido.");
+           }
+let nombres = [];
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("btn-agregar").addEventListener("click", agregarNombre);
